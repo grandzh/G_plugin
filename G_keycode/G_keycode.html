@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>G_keycode</title>
+<link rel="stylesheet" type="text/css" href="css/G_codekey.css"/>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/G_keycode.js"></script>
+</head>
+
+<body>
+<input type="text" id="callKeyboard"/>
+<div class="keyboard">
+	<div class="screen">
+		<div class="text">You pressed "<em>T</em>", the keycode is <span style="font-size:48px;">84</span>!</div>
+	</div>
+</div>
+<div class="keyboard">
+	<div class="line-2"></div>
+	<div class="main-keyboard">
+		<div class="group">
+			<button class="function" data-keycode="27">esc</button>
+			<button class="function" data-keycode="112">F1</button>
+			<button class="function" data-keycode="113">F2</button>
+			<button class="function" data-keycode="114">F3</button>
+			<button class="function" data-keycode="115">F4</button>
+			<button class="function" data-keycode="116">F5</button>
+			<button class="function" data-keycode="117">F6</button>
+			<button class="function" data-keycode="118">F7</button>
+			<button class="function" data-keycode="119">F8</button>
+			<button class="function" data-keycode="120">F9</button>
+			<button class="function" data-keycode="121">F10</button>
+			<button class="function" data-keycode="122">F11</button>
+			<button class="function" data-keycode="123">F12</button>
+			<button class="function delete">power</button>
+		</div>
+		<div class="group">
+			<button data-keycode="192">~<br>
+			`</button>
+			<button data-keycode="49">!<br>
+			1</button>
+			<button data-keycode="50">@<br>
+			2</button>
+			<button data-keycode="51">#<br>
+			3</button>
+			<button data-keycode="52">$<br>
+			4</button>
+			<button data-keycode="53">%<br>
+			5</button>
+			<button data-keycode="54">^<br>
+			6</button>
+			<button data-keycode="55">&amp;<br>
+			7</button>
+			<button data-keycode="56">*<br>
+			8</button>
+			<button data-keycode="57">(<br>
+			9</button>
+			<button data-keycode="48">)<br>
+			0</button>
+			<button data-keycode="189">_<br>
+			-</button>
+			<button data-keycode="187">+<br>
+			=</button>
+			<button data-keycode="8" class="delete">delete</button>
+		</div>
+		<div class="group">
+			<button data-keycode="9" class="tab">tab</button>
+			<button data-keycode="81">Q</button>
+			<button data-keycode="87">W</button>
+			<button data-keycode="69">E</button>
+			<button data-keycode="82">R</button>
+			<button data-keycode="84">T</button>
+			<button data-keycode="89">Y</button>
+			<button data-keycode="85">U</button>
+			<button data-keycode="73">I</button>
+			<button data-keycode="79">O</button>
+			<button data-keycode="80">P</button>
+			<button data-keycode="219">{<br>
+			[</button>
+			<button data-keycode="221">}<br>
+			]</button>
+			<button data-keycode="220">|<br>
+			\</button>
+		</div>
+		<div class="group">
+			<button data-keycode="20" class="caps">caps lock</button>
+			<button data-keycode="65">A</button>
+			<button data-keycode="83">S</button>
+			<button data-keycode="68">D</button>
+			<button data-keycode="70">F</button>
+			<button data-keycode="71">G</button>
+			<button data-keycode="72">H</button>
+			<button data-keycode="74">J</button>
+			<button data-keycode="75">K</button>
+			<button data-keycode="76">L</button>
+			<button data-keycode="186">;<br>
+			:</button>
+			<button data-keycode="222">'<br>
+			"</button>
+			<button data-keycode="13" class="return">return</button>
+		</div>
+		<div class="group">
+			<button data-keycode="16" class="shift">shift</button>
+			<button data-keycode="90">Z</button>
+			<button data-keycode="88">X</button>
+			<button data-keycode="67">C</button>
+			<button data-keycode="86">V</button>
+			<button data-keycode="66">B</button>
+			<button data-keycode="78">N</button>
+			<button data-keycode="77">M</button>
+			<button data-keycode="188">,<br>
+			&lt;</button>
+			<button data-keycode="190">.<br>
+			&gt;</button>
+			<button data-keycode="191">/<br>
+			?</button>
+			<button data-keycode="16" class="shift">shift</button>
+		</div>
+		<div class="group">
+			<button data-keycode="17" class="control">control</button>
+			<button data-keycode="18" class="alt">alt</button>
+			<button data-keycode="91" class="command">command</button>
+			<button data-keycode="32" class="space"></button>
+			<button data-keycode="93" class="command">command</button>
+			<button data-keycode="18" class="alt">alt</button>
+			<button data-keycode="17" class="control">control</button>
+		</div>
+	</div>
+	<div class="arrow-keyboard">
+		<div class="group">
+			<button class="function" data-keycode="124">F13</button>
+			<button class="function" data-keycode="125">F14</button>
+			<button class="function" data-keycode="126">F15</button>
+		</div>
+		<div class="group row">
+			<button>fn</button>
+			<button data-keycode="36">home</button>
+			<button data-keycode="33">page up</button>
+		</div>
+		<div class="group row">
+			<button data-keycode="46">del</button>
+			<button data-keycode="35">end</button>
+			<button data-keycode="34">page down</button>
+		</div>
+		<div class="group row"></div>
+		<div class="group row">
+			<button data-keycode="38" class="up">▲</button>
+		</div>
+		<div class="group row">
+			<button data-keycode="37" class="left">◀</button>
+			<button data-keycode="40" class="down">▼</button>
+			<button data-keycode="39" class="right">▶</button>
+		</div>
+	</div>
+	<div class="number-keyboard">
+		<div class="group">
+			<button class="function" data-keycode="127">F16</button>
+			<button class="function" data-keycode="128">F17</button>
+			<button class="function" data-keycode="129">F18</button>
+			<button class="function" data-keycode="130">F19</button>
+		</div>
+		<div class="group row">
+			<button data-keycode="12">clear</button>
+			<button data-keycode="187">=</button>
+			<button data-keycode="111">/</button>
+			<button data-keycode="106">*</button>
+		</div>
+		<div class="group row">
+			<button data-keycode="103" class="active">7</button>
+			<button data-keycode="104" class="">8</button>
+			<button data-keycode="105" class="">9</button>
+			<button data-keycode="109">-</button>
+		</div>
+		<div class="group row">
+			<button data-keycode="100">4</button>
+			<button data-keycode="101">5</button>
+			<button data-keycode="102">6</button>
+			<button data-keycode="107">+</button>
+		</div>
+		<div class="group row">
+			<button data-keycode="97">1</button>
+			<button data-keycode="98">2</button>
+			<button data-keycode="99">3</button>
+			<div class="enter-wrapper">
+				<button data-keycode="13" class="enter">enter</button>
+			</div>
+		</div>
+		<div class="group row">
+			<button data-keycode="96" class="zero">0</button>
+			<button data-keycode="110">.</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

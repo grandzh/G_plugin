@@ -1,0 +1,18 @@
+//
+G_sky is a front-end kit.
+
+It's not that simplify as jquery,or is powerful more than EXT
+
+parts of this kit are depend on jquery,
+
+much of the plugins are combination of all the jquery plugin or some frequently used code piece
+
+
+//
+
+
+
+
+//0.5
+based on one of my project
+

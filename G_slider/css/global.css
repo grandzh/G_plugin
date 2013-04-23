@@ -1,0 +1,100 @@
+﻿.familiarIndustry {
+	/* [disabled]margin-top: 14px; */
+	/* [disabled]overflow: hidden; */
+	position: relative;
+	top: -14px;
+}
+.IndustryTitle{
+	font-size: 22px;
+	line-height: 52px;
+	color: #c01920;
+	padding-left: 10px;
+}
+.familiarIndustry ul{
+	width:960px;
+	height:auto;	
+}
+.familiarIndustry ul li {
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-top: 6px;
+	margin-bottom: 14px;
+	_display:inline;
+	_margin-right:9px;
+	_margin-left:9px;
+}
+.familiarIndustry ul li img {
+	display: block;
+}
+.familiarCustomer {
+	margin-top: 28px;
+	padding-bottom: 20px;
+}
+.familiarIndustry ul {
+	overflow: hidden;
+	width: 960px;
+}
+.familiarCustomer .customerList {
+	background-image: url(../images/industry_and_customers/industry_customers_20.png);
+	background-repeat: repeat-x;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+	overflow: hidden;
+	height: 113px;
+	width:940px;
+}
+.familiarCustomer .customerList .left {
+	background-image: url(../images/industry_and_customers/industry_left.png);
+	display: block;
+	height: 113px;
+	width: 20px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: 100;
+}
+.familiarCustomer .customerList .right {
+	background-image: url(../images/industry_and_customers/industry_right.png);
+	display: block;
+	height: 113px;
+	width: 20px;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: 100;
+}
+.familiarCustomer .customerList ul {
+	width: 3000px;
+	height: 90px;
+	/* [disabled]margin-left: 20px; */
+	overflow: hidden;
+	position: relative;
+	top: 12px;
+	padding-bottom: 1px;
+	zoom:1
+	_zoom:1;
+}
+.familiarCustomer .customerList ul li {
+	float: left;
+	height: 88px;
+	width: 128px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+	_display:inline;
+	zoom:1
+	_zoom:1;
+	background:#fff;
+}
+.familiarCustomer .customerList ul li img{
+	display:block;
+}
+.familiarCustomer .industrySlidermasker {
+	margin-left: 20px;
+	overflow: hidden;
+	width: 900px;
+	height: 113px;
+}
